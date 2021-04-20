@@ -101,6 +101,9 @@ button {
     font-size: 2.4rem;
 }
 
+.nav-list a{
+    color: #333;
+}
 .nav-list:not(:last-child){
     padding-right: 46px;
 }
