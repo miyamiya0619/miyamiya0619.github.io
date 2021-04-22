@@ -7,7 +7,7 @@ html{
 }
 body{
     font-size: 1.6rem;
-    font-weight: bold;
+    font-weight: 900;
     font-family: 'Noto Sans JP', sans-serif;
     color: #333333;
 }
@@ -133,6 +133,15 @@ button {
     font-size:3.2rem;
     line-height: 1.68;
     margin-bottom: 38px;
+    text-shadow:
+    .1px .1px #333,
+    -.1px .1px #333,
+    -.1px -.1px #333,
+    .1px -.1px #333,
+    .1px 0px #333,
+    0px .1px #333,
+    -.1px 0px #333,
+    0px -.1px #333;
 }
 
 .fv-leading{
@@ -225,10 +234,11 @@ td.td-second{
 /* ------------------ */
 
 .faq-item{
-    width: 100%;
+    margin: 0 auto;
     border: none;
     border: 1px solid #E5E5E5;
     font-size: 1.4rem;
+    
 }
 
 .faq-question{
@@ -526,9 +536,6 @@ body{
     z-index: 1;
 }
 
-body.noscroll{
-    overflow: hidden;
-}
 /* リスト表示 */
 .hanburger-navi {
     display: block;
@@ -794,6 +801,11 @@ body{
 /* sp_price
 /* ------------------ */
 
+.price-info{
+    max-width: 350px;
+}
+
+
 .section-title-en{
     padding-bottom: 20px;
 }
@@ -819,6 +831,9 @@ td.td-first{
     padding-left: 10px;
 }
 
+.faq-item{
+    max-width: 350px;
+}
 /* ------------------ */
 /* sp_blog
 /* ------------------ */
