@@ -3,9 +3,16 @@ $(function() {
 $('.hamburger-menu').on('click',function(){
   $('.hanburger-navi').toggleClass('open');
   $('.barger-mask').fadeToggle(300); //背景を暗くするマスクをフェードイン・フェードアウトさせる
-  $('body').toggleClass('noscroll'); //ハンバーガーメニューを開いたときにスクロールしないようにする
 });
 
+/* ナビをクリックした場合 */
+if ($(window).width() < 769){
+  $('.hanburger-navi a').click(function (){
+    $('.hanburger-navi').toggleClass('open');
+    $('.barger-mask').fadeToggle(300); //背景を暗くするマスクをフェードイン・フェードアウトさせる
+
+  });
+}
 
 
   /* アコーディオン機能 */ 
@@ -28,6 +35,8 @@ $('.faq-question').click(function(){
     }, speed, "swing");
     return false;
   });
+
+
 
 /* 制作実績箇所のスライダー */
 var mySwiper = new Swiper ('.swiper-container', {
