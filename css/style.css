@@ -681,6 +681,13 @@ body{
     padding: 0 20px;
 }
 
+/* ------------------ */
+/* tab_faq
+/* ------------------ */
+.faq-item{
+    max-width: 750px;
+}
+
 
 /* ------------------ */
 /* tab_contact
@@ -831,9 +838,7 @@ td.td-first{
     padding-left: 10px;
 }
 
-.faq-item{
-    max-width: 350px;
-}
+
 /* ------------------ */
 /* sp_blog
 /* ------------------ */
