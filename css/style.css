@@ -701,7 +701,7 @@ body{
     width: 600px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
 
 /* ------------------ */
 /* sp_base 
@@ -833,6 +833,11 @@ td.td-first{
 /* ------------------ */
 /* sp_faq
 /* ------------------ */
+
+
+.faq-item{
+    max-width: 350px;
+}
 
 .faq-ans{
     padding-left: 10px;
